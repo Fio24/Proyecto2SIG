@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> PROYECTO 1 - MAPA SIG</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
+</head>
+
+<body>
+  
+    <center>
+        <h1> PROYECTO #2 SISTEMAS DE INFORMACIÓN GEOGRÁFICA</h1>
+        <h2> MAPAS DE TEMBLORES</h2>
+    </center>
+
+    
+    
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+    integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+    crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/geotiff@0.4.1/dist/main.js"></script>
+    <script src="https://unpkg.com/plotty@0.2.0/src/plotty.js"></script>
+    <script src="leaflet-geotiff.js"></script>
+   
+  
+  <div style="height: 50px"></div>
+  <h2> HEAPMAP PROFUNDIDAD DE TEMBLORES POR DISTRITO EN COSTA RICA </h2>
+  <div id="MapaProf" style="height: 500px"></div>  
+  <script src="mapaProf.js"></script>
+
+  <div style="height: 50px"></div>
+  <h2> HEAPMAP PROFUNDIDAD ALTA DE TEMBLORES POR DISTRITO EN COSTA RICA </h2>
+  <div id="MapaProfAlta" style="height: 500px"></div>  
+  <script src="mapaProfAlta.js"></script>
+
+  <div style="height: 50px"></div>
+  <h2> HEAPMAP PROFUNDIDAD BAJA DE TEMBLORES POR DISTRITO EN COSTA RICA </h2>
+  <div id="MapaProfBaja" style="height: 500px"></div>
+  <script src="mapaProfBaja.js"></script>
+
+  <div style="height: 50px"></div>
+  <h2> ESCUELAS EN ZONAS CON MAYOR CANTIDAD DE TEMBLORES </h2>
+  <div id="MapaEscuelas" style="height: 500px"></div>
+  <script src="mapaEscuelasSismos.js"></script>
+
+  <div style="height: 50px"></div>
+  <h2> GASOLINERAS EN ZONAS CON MAYOR CANTIDAD DE TEMBLORES </h2>
+  <div id="MapaGasolineras" style="height: 500px"></div>
+  <script src="mapaGasolinerasSimos.js"></script>
+
+  <div style="height: 100px"></div>
+
+</body>
+
+</html>
