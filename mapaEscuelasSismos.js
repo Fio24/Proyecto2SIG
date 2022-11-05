@@ -1,5 +1,5 @@
 
-let MapaEscuelas = L.map('MapaEscuelas').setView([10.01620986717804, -84.10739657709694],7.5);
+let MapaEscuelas = L.map('MapaEscuelas').setView([10.01620986717804, -84.10739657709694],7.4);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
