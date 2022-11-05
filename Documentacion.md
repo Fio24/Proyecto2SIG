@@ -5,12 +5,13 @@ Sede: Campus Tecnológico Central Cartago \
 Escuela de Ingeniería en Computación \
 Curso: Sistemas de Información Geográfica \
 Segundo Proyecto \
-Estudiantes: \
-- Fiorella Vanessa Arias Arias (2020023639)
-- Daniel Bejarano Alfaro(2020425953)
 Profesor: Armando Arce \
-Fecha de entrega:08/11/2022 \
+Fecha de entrega: 08/11/2022 \
 Segundo Semestre 2022 \
+Estudiantes: 
+- Fiorella Vanessa Arias Arias (2020023639)
+- Daniel Bejarano Alfaro(2020425953) 
+
 
 - - -
 
