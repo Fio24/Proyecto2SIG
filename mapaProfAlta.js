@@ -5,7 +5,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap'
 }).addTo(MapaProfAlta);
 
-L.leafletGeotiff('heapmapProfAlta.tif',{
+L.leafletGeotiff('./heapmapProfAlta.tif',{
     image: 'heapmapProfAlta.tif'
 }).addTo(MapaProfAlta);
 
