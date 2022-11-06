@@ -1,23 +1,4 @@
-Skip to content
-stuartmatthews
-/
-leaflet-geotiff
-Public
-Code
-Issues
-21
-Pull requests
-4
-Actions
-Projects
-More
-leaflet-geotiff/leaflet-geotiff.js /
-@m-mohr
-m-mohr Improved transform
- History
- 2 contributors
-@m-mohr@stuartmatthews
-301 lines (259 sloc)  11.2 KB
+
 // Ideas from:
 // https://github.com/ScanEx/Leaflet.imageTransform/blob/master/src/L.ImageTransform.js
 // https://github.com/BenjaminVadant/leaflet-ugeojson
@@ -319,18 +300,3 @@ L.leafletGeotiff = function (url, options) {
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') {
 	module.exports = L;
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-leaflet-geotiff/leaflet-geotiff.js at master · stuartmatthews/leaflet-geotiff
