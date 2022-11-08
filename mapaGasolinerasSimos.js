@@ -72,11 +72,26 @@ var myStyle = {
     "opacity": 1
 };
 
-iconMarker = L.icon({
-    iconUrl: 'gasolinera.png',
-    iconSize: [40, 40],
+ 
+
+iconMarker =  L.Icon.extend({
+    options: {
+        iconUrl: 'gasolinera.png',
+        iconSize:     [20, 20],
+        iconAnchor:   [20, 20]
+    }
 });
 
+function generatePoints(geojson, icon) {
+    L.geoJSON(geojson, {
+        pointToLayer: function (coordinates, latlng) {
+                return L.marker(latlng, {icon: icon});
+        }
+    }).addTo(MapaGasolineras); 
+}
 
 
-L.geoJSON(gasolineras, {onEachFeature: onEachFeature, style: myStyle}).addTo(MapaGasolineras);
+var pointList = [[gasolineras, iconMarker]];
+for (var i = 0; i < pointList.length; i++) {
+    generatePoints(pointList[i][0], new pointList[i][1]());
+}
